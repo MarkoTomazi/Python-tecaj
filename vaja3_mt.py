@@ -142,7 +142,7 @@ df.head
 print(df.to_string())
 
 
-#read csv + create new output
+#Naloga 3.1. -->read csv + create new output
 import csv
 with open("test.csv", "r") as csv_file:
   csv_reader = csv.reader(csv_file, delimiter= ';') #sets delimiter
